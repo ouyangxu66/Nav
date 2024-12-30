@@ -1,6 +1,7 @@
-import {defineStore} from "pinia";
-import {ref} from "vue";
+import { defineStore } from "pinia";
+import { ref } from "vue";
 
+// 基于pania定义Store -> 管理token
 export const useTokenStore = defineStore('token',
   () => {
     const token = ref({
@@ -14,13 +15,11 @@ export const useTokenStore = defineStore('token',
       token.value = {
         token: '',
         refreshToken: ''
-      }; 
+      };
     }
     return {
       token, setToken, removeToken
     }
   },
-  {
-    persist: true
-  }
+  { persist: true }
 );
