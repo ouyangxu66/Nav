@@ -28,5 +28,8 @@
   ],
   "author": "mintoneko",
   "license": "MIT",
-  "description": "Nav-frontend"
+  "description": "Nav-frontend",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1"
+  }
 }
