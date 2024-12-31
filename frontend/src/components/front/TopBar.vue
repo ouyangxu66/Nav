@@ -45,11 +45,11 @@
 </template>
 
 <script>
+import { onMounted, ref } from "vue";
+import { useRouter } from 'vue-router';
 import {useTokenStore} from "@/stores/token.js";
 import { useUserInfoStore } from "@/stores/userInfo.js";
-import { useRouter } from 'vue-router';
 import menuApi from '@/api/menu.js';
-import { onMounted, ref } from "vue";
 import settingApi from "@/api/setting";
 
 export default {

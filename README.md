@@ -136,6 +136,14 @@ services:
   - 测试HelloPage调用compoent > success
   - 添加 404 路由和重定向 > success
   - 添加api模块
+  
+- 24.12.31
+
+  - 后端项目初始化
+    - 添加backend分支
+    - 添加部分util工具包
+    - 添加部分TEST测试包
+    - 数据库建表以及信息初始化
 
 ### ☑️待完成
 
