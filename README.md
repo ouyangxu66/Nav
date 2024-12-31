@@ -135,7 +135,7 @@ services:
     - request.js > 实现统一的请求拦截、响应拦截、Token 管理以及错误处理。
   - 测试HelloPage调用compoent > success
   - 添加 404 路由和重定向 > success
-  - 测试api > success
+  - 添加api模块
 
 ### ☑️待完成
 
