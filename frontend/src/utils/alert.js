@@ -40,7 +40,7 @@ var alertUtil = {
     var divElement = alertUtil.alert(msg, type);
     var isIn = false;
 
-    // 在setTimeout执行之前先判定鼠标是否在消息框中
+    // // 在setTimeout执行之前先判定鼠标是否在消息框中
     divElement.on({
       mouseover: function () { isIn = true; },
       mouseout: function () { isIn = false; }

@@ -1,4 +1,3 @@
-<!-- src/views/OAuthCallback.vue -->
 <template>
   <div class="container">
     <h1>正在处理您的请求，请稍候。</h1>

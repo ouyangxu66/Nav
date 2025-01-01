@@ -32,12 +32,13 @@ const routes = [
     title: '重置密码',
     component: () => import('@/views/login/ResetPwdPage.vue'),
   },
-  {
-    path: '/auth/linux-do/callback',
-    name: 'linux-do-callback',
-    title: 'linux-do回调',
-    component: () => import('@/views/callback/LinuxDoPage.vue'),
-  },
+  // {
+  //   path: '/auth/linux-do/callback',
+  //   name: 'linux-do-callback',
+  //   title: 'linux-do回调',
+  //   component: () => import('@/views/callback/LinuxDoPage.vue'),
+  // },
+  // 回掉视图（view
   {
     path: '/auth/github/callback',
     name: 'github-callback',
@@ -45,12 +46,12 @@ const routes = [
     component: () => import('@/views/callback/GitHubPage.vue'),
   },
   // 用户视图（view
-  // {
-  //   path: '/nav/:username',
-  //   name: 'user-nav',
-  //   title: '用户导航',
-  //   component: () => import('@/views/nav/NavPage.vue'),
-  // },
+  {
+    path: '/nav/:username',
+    name: 'user-nav',
+    title: '用户导航',
+    component: () => import('@/views/nav/NavPage.vue'),
+  },
   // 404视图（view
   {
     path: '/404',
