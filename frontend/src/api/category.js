@@ -1,7 +1,8 @@
 import request from '@/utils/request'
 
+// 分类管理
 const categoryApi = {
-  // --------------------------------- 公开 ----------------------------------
+  // --------------------------------- 公共 ----------------------------------
   getCategoryByUsername: (username) => {
     return request.get('/public/category', {
       params: {
