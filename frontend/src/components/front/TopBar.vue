@@ -4,7 +4,7 @@
       <div class="container-fluid header-navbar-top-content">
         <div class="d-flex align-items-center">
           <img class="img-navbar-brand" src="@/assets/logo.png" alt="导航站" width="36" height="36" />
-          <router-link class="navbar-brand ms-2 noto-serif-sc-brand"  to="/">Go导航</router-link>
+          <router-link class="navbar-brand ms-2 noto-serif-sc-brand"  to="/">Nav导航</router-link>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
