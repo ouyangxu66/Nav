@@ -1,7 +1,9 @@
+
 import request from '@/utils/request'
 
+// 网站管理（应用管理）
 const appApi = {
-  // --------------------------------- 公开 ----------------------------------
+  // --------------------------------- 公共 ----------------------------------
   getAppByUsernameAndCategoryIdPublic: (username, categoryId) => {
     return request.get('/public/app', {
       params: {

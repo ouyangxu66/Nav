@@ -1,7 +1,8 @@
 import request from '@/utils/request'
 
+// 菜单管理
 const menuApi = {
-  // --------------------------------- 公开 ----------------------------------
+  // --------------------------------- 公共 ----------------------------------
   getMenuList: (type) => {
     return request.get('/public/menu', {
       params: {
