@@ -1,5 +1,12 @@
 # 数据库设计
-## 1. USER 用户表
+
+## 表模型
+
+![image-20250101123853750](images/image-20250101123853750.png)
+
+## 主要表
+
+### USER 用户表
 
 - id: bigint 主键 唯一
 - username: varchar(100) 用户名 唯一
@@ -41,7 +48,7 @@ AUTO_INCREMENT=16
 ;
 ```
 
-## 2. CATEGORY分类表
+### CATEGORY分类表
 
 - id: bigint 主键 唯一
 - parent_id: bigint 父分类的id，默认为NULL没有父分类
@@ -75,7 +82,7 @@ COLLATE='utf8mb4_0900_ai_ci'
 ENGINE=InnoDB;
 ```
 
-## 3. APP 应用表
+### APP 应用表
 
 - id: bigint 主键  唯一
 - name: varchar(30) 应用名  唯一
