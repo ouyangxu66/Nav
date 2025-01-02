@@ -31,13 +31,13 @@ public class UsernameAuthenticationProvider implements AuthenticationProvider {
   @Override
   public Authentication authenticate(Authentication authentication) throws AuthenticationException {
     // 用户提交的用户名 + 密码：
-    String username = (String)authentication.getPrincipal();
+    String username = (String) authentication.getPrincipal();
     String password = (String) authentication.getCredentials();
 
     // 查数据库，匹配用户信息
     User user = userService.getUserByUsernameOrEmail(username);
     if (user == null
-        || !passwordEncoder.matches(password, user.getPassword())) {
+            || !passwordEncoder.matches(password, user.getPassword())) {
       // 密码错误，直接抛异常。
       // 根据SpringSecurity框架的代码逻辑，认证失败时，应该抛这个异常：org.springframework.security.core.AuthenticationException
       // BadCredentialsException就是这个异常的子类
