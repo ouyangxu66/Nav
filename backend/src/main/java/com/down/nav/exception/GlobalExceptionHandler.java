@@ -1,3 +1,4 @@
+// 定义了一个全局异常处理器：统一处理不同类型的异常，返回一致的响应格式
 package com.down.nav.exception;
 
 import com.dawn.nav.model.po.Result;
