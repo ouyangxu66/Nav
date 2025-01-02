@@ -1,3 +1,4 @@
+<!-- 公共分类导航组件 -->
 <template>
   <div class="content-section-search-container">
     <form class="d-flex " role="search" style="width: 100%;" @submit="handleSearch">
@@ -5,7 +6,7 @@
         ref="searchInput"
         class="form-control me-2" 
         type="search" 
-        placeholder="按任意键开始搜索~~" 
+        placeholder="按任意键开始搜索" 
         aria-label="Search" 
         style="border: 0px;box-shadow: 0 0 0 0rem;"
         >

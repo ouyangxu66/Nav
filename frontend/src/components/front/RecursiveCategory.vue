@@ -1,3 +1,4 @@
+<!-- 用户分类导航组件 -->
 <template>
   <div class="content-section-category-container" style="margin-top: 10px;">
     <!-- 当前分类的直接子分类 -->
