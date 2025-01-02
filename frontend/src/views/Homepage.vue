@@ -1,6 +1,8 @@
 <template>
-  this is homepage
-
+  <TopBar></TopBar>
+  <div class="home-container">
+    <ContentRootSection></ContentRootSection>
+  </div>
 </template>
 <script>
 import HelloWorld from "@/components/HelloWorld.vue";
