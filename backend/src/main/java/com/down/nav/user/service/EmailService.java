@@ -1,7 +1,0 @@
-package com.down.nav.user.service;
-
-import com.dawn.nav.model.dto.EmailDTO;
-
-public interface EmailService {
-    void sendMsg(EmailDTO emailDTO);
-}
