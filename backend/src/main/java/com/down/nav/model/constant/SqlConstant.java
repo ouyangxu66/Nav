@@ -8,3 +8,4 @@ public class SqlConstant {
     public static final String SITE_LOGO = "site_logo";
     public static final String SITE_GITHUB_LOGO = "github_logo";
 }
+// 用于存储与数据库操作相关的常量
